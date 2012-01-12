@@ -13,6 +13,8 @@ A simple navigation plugin which helps users to move backward and forward posts 
 
 Visit [Plugin Home Page](http://www.jobyj.in/wordpress/jj-wp-easy-navigation-wordpress-plugin "jj-WP Easy Navigation") for more support.
 
+[View Demo](http://www.jobyj.in/wordpress/jj-wp-easy-navigation-wordpress-plugin "jj-WP Easy Navigation")
+
 == Installation ==
 
 This section describes how to install the plugin and get it working.

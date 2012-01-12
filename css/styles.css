@@ -1,0 +1,131 @@
+.jj-nav-post{
+    width: 64px;
+    height: 64px;
+    margin: auto;
+    position: fixed;
+    z-index: 100;
+}
+.jj-nav-post img
+{
+    border: none;
+}
+#jj-prev-post
+{
+    left:10px;
+}
+#jj-next-post
+{
+    right: 10px;
+}
+/* for callout*/
+
+    #jj-prev-post-title .calloutDown
+    {
+        height: 0;
+        width: 0;
+        border-right: 12px solid #ffffff;
+        border-top: 12px dotted transparent;
+        border-bottom: 12px dotted transparent;
+        left: 0px;
+        top: 45px;
+        margin-top: 0px;
+        z-index: 11;
+        position: absolute;
+    }
+    #jj-prev-post-title .calloutDown2
+    {
+        position: absolute;
+        left: 2px;
+        top: -10px;
+        height: 0;
+        width: 0;
+        border-right: 10px solid #eee;
+        border-top: 10px dotted transparent;
+        border-bottom: 10px dotted transparent;
+        z-index: 10;
+    }
+
+    .divContainerDown
+    {
+        background:#eee;
+        border: solid 1px #ffffff;
+        position: relative;
+        top: 0px;
+        z-index: 3;
+        width: 300px;
+        padding: 2px;
+        left: 11px;
+        overflow: hidden;
+        color: #333;
+        box-shadow: 0px 0px 10px #666;
+    }
+    #jj-prev-post-title
+    {
+        position: fixed;
+        left:60px;
+        display: none;
+}
+#jj-next-post-title
+{
+    position: fixed;
+    right: 100px;
+    display: none;
+}
+  .jj-thumb-holder
+  {
+      width: 95px;
+      height: 95px;
+      background: #fff url('../img/grid-dark.png');
+      border: 1px solid #aaa;
+      display: table-cell;
+      top: 19px;
+      text-align: center;
+      vertical-align: middle;
+}
+.jj-title-holder
+{
+    position: absolute;
+    background: #666 url('../img/grid-dark.png');
+    width: 197px;
+    height: 95px;
+    top: 3px;
+    left: 103px;
+}
+.jj-title-holder .jj-title-contents{
+    width: 197px;
+    height: 95px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 14px;
+    font-weight: bold;
+    color: #eee;
+    text-shadow:2px 2px 1px #333;
+}
+
+#jj-next-post-title .calloutDown
+    {
+        height: 0;
+        width: 0;
+        border-left: 12px solid #ffffff;
+        border-top: 12px dotted transparent;
+        border-bottom: 12px dotted transparent;
+        left: 316px;
+        top: 45px;
+        margin-top: 0px;
+        z-index: 11;
+        position: absolute;
+    }
+#jj-next-post-title .calloutDown2
+    {
+        position: absolute;
+        left: -12px;
+        top: -10px;
+        height: 0;
+        width: 0;
+        border-left: 10px solid #eee;
+        border-top: 10px dotted transparent;
+        border-bottom: 10px dotted transparent;
+        z-index: 10;
+    }
+  
